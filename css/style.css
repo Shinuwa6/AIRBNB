@@ -1,8 +1,6 @@
 section {
-  margin-top: 5%;
-
+    margin-top: 5%;
 }
-
 .bg {
     margin-right: -223px !important;
 }
@@ -25,24 +23,20 @@ section {
     height: 500px !important;
 }
 a {
-    color: #FFF   !important;
+    color: #FFF !important;
 }
 .white {
     color: white;
     font-weight: bold !important;
 }
-
 .hero__content-footer {
     margin-top: 8%;
-
 }
-
 .annie {
     margin-top: 7%;
-
 }
 .rapace {
-  margin-bottom: 6%;
-
+    margin-bottom: 6%;
 }
-/*end*/   
+
+/*end*/
