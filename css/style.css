@@ -1,11 +1,16 @@
 .bg {
-  margin-right: -223px !important;
+    margin-right: -223px !important;
 }
 .logo-airbnb {
-  width: 35%;
+    width: 35%;
 }
-
 .zed {
-  margin-left: -50px !important;
-
+    margin-left: -50px !important;
+}
+.lucian {
+    border: white 3.5px solid;
+}
+.text-strong {
+    font-weight: bold;
+    color: #484848;
 }
