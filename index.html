@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-inverse">
+    <header class="img-responsive bg-header">
+        <nav class="navbar navbar-collapse">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -39,6 +39,79 @@
                 </div>
             </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <div class="annie">
+
+
+                    <div class="text-center">
+                        <h1 class="white">VIVEZ LA-BAS</h1></div>
+                    <div class="text-center">
+                        <h4 class="white">Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas, comme chez vous.</h4></div>
+                </div>
+            </div>
+        </div>
+
+        <!--début de la div générant la barre de recherche -->
+        <div class="hero__content-footer hide-sm text-center">
+            <div class="searchbar">
+                <form id="searchbar-form" action="/s">
+
+                    <div class="searchbar__input-wrapper">
+
+                        <label class="searchbar__location">
+                            <span class="screen-reader-only">
+                </span>
+                            <input id="location" type="text" class="input-large input-contrast" autocomplete="off" name="location" placeholder="Où voulez-vous aller ?" />
+                            <div id="searchbar-location-error" class="searchbar__location-error hide col-sm-12 col-xs-12 col-md-12 col-lg-12">
+                            </div>
+                        </label>
+
+                        <label class="searchbar__checkin">
+                            <span class="screen-reader-only">
+                </span>
+                            <input id="checkin" type="text" class="checkin input-large input-contrast" name="checkin" placeholder="Arrivée" />
+                        </label>
+
+                        <label class="searchbar__checkout">
+                            <span class="screen-reader-only">
+                </span>
+                            <input id="checkout" type="text" class="checkout input-large input-contrast" name="checkout" placeholder="Départ" />
+                        </label>
+
+                        <label class="searchbar__guests">
+                            <span class="screen-reader-only">
+                </span>
+                            <div class="select select-large ">
+                                <select id="guests" name="guests">
+                                    <option value="1">1 voyageur</option>
+                                    <option value="2">2 voyageurs</option>
+                                    <option value="3">3 voyageurs</option>
+                                    <option value="4">4 voyageurs</option>
+                                    <option value="5">5 voyageurs</option>
+                                    <option value="6">6 voyageurs</option>
+                                    <option value="7">7 voyageurs</option>
+                                    <option value="8">8 voyageurs</option>
+                                    <option value="9">9 voyageurs</option>
+                                    <option value="10">10 voyageurs</option>
+                                    <option value="11">11 voyageurs</option>
+                                    <option value="12">12 voyageurs</option>
+                                    <option value="13">13 voyageurs</option>
+                                    <option value="14">14 voyageurs</option>
+                                    <option value="15">15 voyageurs</option>
+                                    <option value="16">16+ voyageurs</option>
+                                </select>
+                            </div>
+                        </label>
+
+                        <button id="submit_location" type="submit" class="searchbar__submit btn btn-danger btn-large">
+                            Rechercher
+                        </button>
+
+                        <input type="hidden" name="source" value="bb">
+                    </div>
+                    <!--fin de la div générant barre de recherche -->
+
     </header>
     <section>
         <div class="container">
@@ -67,11 +140,14 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="text-strong text-center">
-                    <h2>Nouveau ! Les guides</h2>
-                </div>
-                <div class="text-strong text-center">
-                    <p>Découvrez des centaines de bonnes adresses recommandées par les hôtes Airbnb</p>
+                <div class="rapace">
+
+                    <div class="text-strong text-center">
+                        <h2>Nouveau ! Les guides</h2>
+                    </div>
+                    <div class="text-strong text-center">
+                        <p>Découvrez des centaines de bonnes adresses recommandées par les hôtes Airbnb</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <img src="img/bx.png" alt="Bruxelles">
