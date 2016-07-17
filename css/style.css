@@ -1,6 +1,11 @@
 section {
     margin-top: 5%;
 }
+.hidden-md-down {
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+}
 .bg {
     margin-right: -223px !important;
 }
@@ -22,6 +27,12 @@ section {
     background-size: cover;
     height: 500px !important;
 }
+.bg-footer {
+    background-image: url("../img/foot.jpg");
+    background-size: cover;
+    height: 350px !important;
+    padding-bottom: 10%;
+}
 a {
     color: #FFF !important;
 }
@@ -37,6 +48,18 @@ a {
 }
 .rapace {
     margin-bottom: 6%;
+}
+.lili {
+    margin-top: 10%;
+    padding-top: 1%;
+}
+.football {
+    margin-left: -7%;
+    list-style: none;
+    margin-right: 10%;
+}
+.listizi {
+    margin-top: 4%;
 }
 
 /*end*/
